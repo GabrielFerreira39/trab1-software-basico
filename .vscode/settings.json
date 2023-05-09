@@ -1,6 +1,13 @@
 {
     "files.associations": {
-        "math.h": "c"
+        "**/.rmv/config/*.json": "jsonc"
     },
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "[rocket-mvbasic]": {
+        "editor.codeLens": false
+    },
+    "files.exclude": {
+        "**/.rmv/catalog/**": true,
+        "*/_*": false
+    }
 }
