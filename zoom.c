@@ -7,7 +7,7 @@ int main()
 	struct image_s *image = &data;
 	int i, j, r;
 
-	r = read_ppm("lena.ppm", image);
+	r = read_ppm("test.ppm", image);
 
 	if (r == 0)
 	{
